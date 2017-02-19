@@ -1,0 +1,210 @@
+ @charset "utf-8";
+/*========================================================================================================================
+												navbar after logging
+===========================================================================================================================*/
+
+body{
+	font-family:"華康粗圓體", "微軟正黑體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+}
+
+div.fix-navbar-top{
+	padding:0px;
+}
+
+nav.navbar{
+	background-color:rgba(0,0,0,0.7);
+	border:none;
+	color:#FFF;
+	font-family:"華康粗圓體", "微軟正黑體", "超研澤中鋼筆行楷", "文鼎粗行楷";
+	padding-left:3%;
+	font-size:20px;
+}
+
+div.navbar-left i{
+	color:#FFF;
+}
+
+div.navbar-header div.form-group input.form-control[type=search]{
+	border:none;
+	background-color:rgba(0,0,0,0);
+	width:20vw;
+	padding-left:0px;
+	font-size:16px;
+	color:#FFF;
+}
+
+div.navbar-header div.form-group input.form-control[type=search]:focus{
+	border: none;
+	box-shadow: none;
+}
+
+a.navbar-brand{
+	color:#FFF;
+}
+
+ul.navbar-right{
+	font-size:20px;
+	margin-right:5%;
+}
+
+
+/*登入大頭照*/
+img.profile{
+	border-radius:50%;
+	width:20px;
+	height:20px;
+	border:1px solid #FFF;
+}
+
+/*navbar-list-content*/
+span.space{
+	padding-right:10vw;
+}
+
+
+/*navbar list by hover*/
+li.navbar-list-system-notice:hover .navbar-list-system-notice-content{
+	display:block;
+}
+
+li.navbar-list-share-trip:hover  .navbar-list-share-trip-content{
+	display:block;
+}
+
+li.navbar-list-personal-photo:hover .navbar-list-personal-photo-content{
+	display:block;
+}
+
+/*==========================================================================================================================
+														會員資料頁面
+===========================================================================================================================*/
+
+/*navbar-bottom*/
+
+div.NavbarBottom{
+	margin-top:8vh;
+	background-color:#3cdbc0;
+	height:8vh;
+}
+
+div.NavbarBottomList{
+	border:none;
+	height:8vh;
+	background-color:#3cdbc0;
+}
+
+div.NavbarBottomListCotent{
+	margin-left:1vw;
+}
+
+div.NavbarBottomListCotent a{
+	color:#333;
+}
+
+div.NavbarBottomListCotent-s a{
+	color:#333;
+}
+
+div.NavbarBottomListCotent-s a:hover{
+	text-decoration:none;
+}
+
+div.NavbarBottomListCotent a:hover{
+	text-decoration:none;
+}
+
+div.NavbarBottomListCotent-s a:focus{
+	text-decoration:none;
+}
+
+div.NavbarBottomListCotent a:focus{
+	text-decoration:none;
+}
+
+/*inbox content*/
+
+/*.nav-tabs {
+	border-bottom: 2px solid #DDD; 
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+	border-width: 0;
+}
+.nav-tabs li a {
+	border: none; 
+	color:#666;
+}
+.nav-tabs > li.active > a, .nav-tabs > li > a:hover {
+	border: none; 
+	color: #4285F4 !important; 
+	background: transparent; 
+}
+
+.nav-tabs > li > a::after { 
+	content: ""; 
+	background: #4285F4; 
+	height: 2px; position: absolute; 
+	width: 100%; 
+	left: 0px; 
+	bottom: -1px; 
+	transition: all 250ms ease 0s; 
+	transform: scale(0);
+}
+.nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after {
+	transform: scale(1);
+}
+.tab-nav > li > a::after {
+	background: #21527d none repeat scroll 0% 0%; 
+	color: #fff;
+}
+.tab-pane {
+	padding: 15px 0;
+}
+.tab-content{
+	padding:20px
+}
+.inbox-content {
+	background: #FFF none repeat scroll 0% 0%; 
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3); 
+	margin-bottom: 30px;
+}*/
+
+div.inbox-content-list{
+	margin-top:8vh;
+}
+
+div.inbox-content-content{
+	border:1px solid #CCC;
+	height:60vh;
+	margin-top:1vh;
+}
+ul.inbox-list.nav{
+	border:none;
+}
+
+li.inbox-list-name a{
+	border-top:none !important;
+	border-left:none !important;
+	border-right:none !important;
+	color:#333;
+	
+}
+
+li.inbox-list-name a:focus{
+	border-bottom:2px solid #3cdbc0 !important;
+}
+
+li.inbox-list-name a:hover{ 
+	border-bottom:2px solid #3cdbc0 !important;
+	background:none !important;
+	color:#999;
+}
+
+.focusFirst{
+	border-bottom:2px solid #3cdbc0 !important;
+	}
+
+
+
+
+
+

@@ -1,0 +1,106 @@
+ @charset "utf-8";
+/*========================================================================================================================
+												navbar after logging
+===========================================================================================================================*/
+
+body{
+	font-family: "微軟正黑體","華康粗圓體","超研澤中鋼筆行楷", "文鼎粗行楷";
+}
+
+div.fix-navbar-top{
+	padding:0px;
+}
+
+nav.navbar{
+	background-color:rgba(0,0,0,0.7);
+	border:none;
+	color:#FFF;
+	font-family: "微軟正黑體","華康粗圓體","超研澤中鋼筆行楷", "文鼎粗行楷";
+	padding-left:3%;
+	font-size:20px;
+}
+
+div.navbar-left i{
+	color:#FFF;
+}
+
+div.navbar-header div.form-group input.form-control[type=search]{
+	border:none;
+	background-color:rgba(0,0,0,0);
+	width:20vw;
+	padding-left:0px;
+	font-size:16px;
+	color:#FFF;
+}
+
+div.navbar-header div.form-group input.form-control[type=search]:focus{
+	border: none;
+	box-shadow: none;
+}
+
+a.navbar-brand{
+	color:#FFF;
+}
+
+ul.navbar-right{
+	font-size:20px;
+	margin-right:5%;
+}
+
+
+/*調整navbar字體置中*/
+a.navbar-brand{
+	padding-top:3vh;
+}
+div.navbar-left{
+	padding-top:1vh;
+}
+
+
+/*navbar icon 調整*/
+img.navbar-icon-message{
+	width:5vh;
+	height:5vh;
+}
+
+img.navbar-icon-favorites{
+	width:5vh;
+	height:5vh;
+}
+
+img.navbar-icon-experience{
+	width:5vh;
+	height:5vh;
+}
+
+/*登入大頭照*/
+img.profile{
+	border-radius:50%;
+	width:33px;
+	height:33px;
+	border:1px solid #FFF;
+}
+
+/*navbar-list-content*/
+span.space{
+	padding-right:10vw;
+}
+
+
+/*navbar list by hover*/
+li.navbar-list-system-notice:hover .navbar-list-system-notice-content{
+	display:block;
+}
+
+li.navbar-list-share-trip:hover  .navbar-list-share-trip-content{
+	display:block;
+}
+
+li.navbar-list-personal-photo:hover .navbar-list-personal-photo-content{
+	display:block;
+}
+
+
+
+
+
